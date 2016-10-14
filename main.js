@@ -20,6 +20,9 @@ window.onload = function() {
 	number = simpleMath.subtract(5, 3);
 	print(number);
 
+	// test out the multiply function
+	number = simpleMath.multiply(3, 3);
+	print(number);
 	print("uh oh");
 	print("this is going to cause a merge conflict");
 
