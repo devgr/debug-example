@@ -22,4 +22,6 @@ window.onload = function() {
 	var array = [2, 5, 3];
 	bubbleSort(array);
 	print(array);
+	var xIntercepts = algebraMath.quadraticFormula(2, 3, -3);
+	print(xIntercepts);
 };
