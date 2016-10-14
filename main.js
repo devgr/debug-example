@@ -10,4 +10,7 @@ window.onload = function() {
 	print(number);
 	number = simpleMath.subtract(5, 3);
 	print(number);
+	var array = [2, 5, 3];
+	bubbleSort(array);
+	print(array);
 };
