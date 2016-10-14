@@ -1,6 +1,6 @@
 function print(thingToPrint){
 	var stringToPrint = '';
-	if(thingToPrint.length !== undefined){ // test if the thing is an array
+	if(typeof thingToPrint === 'object' && thingToPrint.length !== undefined){ // test if the thing is an array
 		for(var i = 0; i < thingToPrint.length; i++){
 			stringToPrint += thingToPrint[i] + ' ';
 		}
