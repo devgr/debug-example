@@ -19,6 +19,10 @@ window.onload = function() {
 	print(number);
 	number = simpleMath.subtract(5, 3);
 	print(number);
+
+	print("uh oh");
+	print("this is going to cause a merge conflict");
+
 	var array = [2, 5, 3];
 	bubbleSort(array);
 	print(array);
