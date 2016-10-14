@@ -6,4 +6,8 @@ function print(stringToPrint){
 window.onload = function() {
 	console.log('hello world');
 	print('test');
+	var number = simpleMath.add(2, 2);
+	print(number);
+	number = simpleMath.subtract(5, 3);
+	print(number);
 };
