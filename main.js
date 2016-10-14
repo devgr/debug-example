@@ -1,4 +1,13 @@
-function print(stringToPrint){
+function print(thingToPrint){
+	var stringToPrint = '';
+	if(thingToPrint.length !== undefined){ // test if the thing is an array
+		for(var i = 0; i < thingToPrint.length; i++){
+			stringToPrint += thingToPrint[i] + ' ';
+		}
+	} else{
+		stringToPrint = thingToPrint.toString();
+	}
+	
 	console.log(stringToPrint);
 	document.body.innerHTML += stringToPrint + '<br/>';
 }
