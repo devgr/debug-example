@@ -6,4 +6,7 @@ function print(stringToPrint){
 window.onload = function() {
 	console.log('hello world');
 	print('test');
+	var array = [2, 5, 3];
+	bubbleSort(array);
+	print(array);
 };
