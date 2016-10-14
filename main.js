@@ -10,4 +10,6 @@ window.onload = function() {
 	print(number);
 	number = simpleMath.subtract(5, 3);
 	print(number);
+	var xIntercepts = algebraMath.quadraticFormula(2, 3, -3);
+	print(xIntercepts);
 };
