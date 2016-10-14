@@ -23,7 +23,8 @@ window.onload = function() {
 	// test out the multiply function
 	number = simpleMath.multiply(3, 3);
 	print(number);
-
+	print("uh oh");
+	print("this is going to cause a merge conflict");
 
 	var array = [2, 5, 3];
 	bubbleSort(array);
